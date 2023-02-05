@@ -1,0 +1,28 @@
+# Permalinks
+permalink:      /:year-:month-:day/:title
+
+# Setup
+title:          stitch
+baseurl:        ""
+url:            "https://bn-tw2020.github.io"
+
+# Assets
+sass:
+  sass_dir:     _sass
+  style:        :compressed
+
+# Build settings
+markdown:       kramdown
+
+# About
+author:
+  name:         stitch
+  url:          https://bn-tw2020.github.io/
+  email:        skaxodn97@gmail.com  
+  github:       bn-tw2020
+  # twitter:      
+
+# Custom vars
+version:        1.0.0
+github:
+  repo:         https://github.com/bn-tw2020/bn-tw2020.github.io
