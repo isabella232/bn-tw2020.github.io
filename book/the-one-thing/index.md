@@ -1,9 +1,9 @@
 ---
 layout: post
 author: "stitch"
-title:  "멘토로부터 받은 책"
+title:  "The One Thing"
 subtitle: "나의 단점 극복하기"
-type: "self-development book"
+type: "자기계발서"
 text: true
 book: true
 post-header: true
