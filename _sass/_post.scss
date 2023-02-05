@@ -1,17 +1,23 @@
 
 //post header
-
+.post-header-container {
+    height: 100vh;
+    width: 100vw;
+}
 .post-header {
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
-    min-height: 360px;
+    height: 100%;
+    margin: 0 auto;
+    // min-height: 360px;
+    background-size: 100% 100%;
     background-color: $grey-2;
     
-    @media (max-width: $break-small) {
-        min-height: 200px;
-    }
+    // @media (max-width: $break-small) {
+    //     min-height: 200px;
+    // }
 }
 
 //project header
