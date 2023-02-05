@@ -2,15 +2,19 @@
 //post header
 
 .post-header {
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: cover;
+    // background-position: center center;
+    // background-repeat: no-repeat;
+    // background-size: cover;
     width: 100%;
     min-height: 360px;
     background-color: $grey-2;
     
     @media (max-width: $break-small) {
         min-height: 200px;
+    }
+    img {
+        width: 100%;
+        border-radius: 12px;
     }
 }
 
