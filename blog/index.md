@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Blog"
+title: "blog"
 description: 기술 및 회고
 main: true
 project-header: true

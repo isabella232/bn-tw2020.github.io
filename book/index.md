@@ -2,8 +2,8 @@
 layout: default
 work: true
 main: true
-title: "Book"
-description: Book review
+title: "book"
+description: book review
 project-header: true
 header-img: "img/project_bg.jpg"
 ---
