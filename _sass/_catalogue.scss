@@ -75,16 +75,15 @@
         }
 
         p.catalogue-body {
-            font-family: $gmarket;
+            font-family: $gmarket-light;
             font-weight: 300;
             font-size: 13px;
             color: $grey-1;
         }
         p.catalogue-date {
-            font-family: $gmarket;
-            font-weight: lighter;
+            font-family: $gmarket-light;
             font-size: 13px;
-            color: $grey-1;
+            color: $grey-2;
         }
     }
     
