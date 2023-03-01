@@ -24,9 +24,7 @@ main {
 }
 
 .nav {
-    display: flex;
     padding: 24px 0;
-    align-items: center;
 
   &-container {
       margin: 0 auto;
@@ -43,18 +41,14 @@ main {
 
 
 .nav-container {
-  .nav-icon {
-    margin-right: auto;      
-  }
 
   li {
       font-family: $gmarket;
-    //   display: inline-block;
+      display: inline-block;
       margin: 0 40px 0 0;
-      margin-left: auto;
-    //   &:last-child {
-    //       margin-right: 0;
-    //   }
+      &:last-child {
+          margin-right: 0;
+      }
       
       @media (max-width: $break-small) {
           margin: 0 24px 0 0;
