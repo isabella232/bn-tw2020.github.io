@@ -95,13 +95,8 @@ footer {
         .information {
             display: inline-block;
 
-            .myname {
-                font-size: 20px;
-                font-weight: 600;
-                margin-bottom: 4px;
-}
             .email {
-                font-size: 16px;
+                font-size: 14px;
                 color: $default-tint;
             }
             
@@ -135,7 +130,7 @@ footer {
                 margin-top: 6px;
             }
             span {
-                font-size: 16px;
+                font-size: 14px;
             }
         }
     }
