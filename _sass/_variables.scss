@@ -1,4 +1,10 @@
 //initialize
+@font-face {
+  font-family: 'GmarketSansMedium';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansMedium.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
 
 p, h2 {
     margin: 0;
@@ -33,6 +39,7 @@ $break-small: 670px;
 $san-serif: "Source Sans Pro", "APPLE SD Gothic Neo", HelveticaNeue, Helvetica, "NanumGothic", "맑은 고딕", "Malgun Gothic", arial, sans-serif;
 $serif: "Nanum Myeongjo",sans-serif;
 $source: 'Source Sans Pro', sans-serif;
+$gmarket: 'GmarketSansMedium';
 
 $monospaced-font: Menlo, Monaco, monospace;
 $code-color: #bf616a;
