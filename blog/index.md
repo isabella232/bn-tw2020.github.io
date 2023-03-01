@@ -5,6 +5,7 @@ description: 기술 및 회고
 main: true
 project-header: true
 header-img: img/about.jpg
+draft: true
 ---
 
 <ul class="catalogue">
