@@ -43,14 +43,18 @@ main {
 
 
 .nav-container {
+  .nav-icon {
+    margin-right: auto;      
+  }
+
   li {
       font-family: $gmarket;
-      display: inline-block;
+    //   display: inline-block;
       margin: 0 40px 0 0;
-      
-      &:last-child {
-          margin-right: 0;
-      }
+      margin-left: auto;
+    //   &:last-child {
+    //       margin-right: 0;
+    //   }
       
       @media (max-width: $break-small) {
           margin: 0 24px 0 0;

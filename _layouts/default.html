@@ -6,8 +6,8 @@
   <body>
       {% assign current = page.url | downcase | split: '/' %}
       <nav class="nav">
-        <div class="nav_icon">stitch</div>
         <div class="nav-container">
+            <a class="nav-icon">stitch</a>
             <ul>
                 <li class="transition">
                     <a href="{{ '' | prepend: site.baseurl }}/" {% if current[1] == "about" or current[1] == "post" or current[1] == "book" or current[1] == "project" %} class="normal" {% endif %} class="active">home</a>
@@ -16,7 +16,7 @@
                     <a href="{{ '/project' | prepend: site.baseurl }}" {% if current[1] == "project" %} class="active"{% endif %} >Project</a>
                 </li> -->
                 <li class="transition">
-                    <a href="{{ '/blog' | prepend: site.baseurl }}" {% if current[1] == "blog" %} class="active"{% endif %} >post</a>
+                    <a href="{{ '/blog' | prepend: site.baseurl }}" {% if current[1] == "post" %} class="active"{% endif %} >post</a>
                 </li>
                 <li class="transition">
                     <a href="{{ '/book' | prepend: site.baseurl }}" {% if current[1] == "book" %} class="active"{% endif %} >book</a>
