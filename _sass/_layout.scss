@@ -42,7 +42,7 @@ main {
 
 .nav-container {
   li {
-      font-family: $source;
+      font-family: $gmarket;
       display: inline-block;
       margin: 0 40px 0 0;
       
@@ -81,7 +81,7 @@ a {
 //footer
 
 footer {
-    font-family: $source;
+    font-family: $gmarket;
     padding: 36px 0 46px 0;
     background-color: $grey-3;
     color: $default-tint;

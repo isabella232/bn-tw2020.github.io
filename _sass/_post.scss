@@ -17,7 +17,7 @@
 //project header
 
 .project-header {
-        font-family: $source, $san-serif;
+        font-family: $gmarket;
         color: $grey-0;
     .header-project-title {
         font-weight: 700;
@@ -52,7 +52,7 @@
         line-height: 1.8;
         margin: 0 0 10px 0;
         word-break: break-all;
-        font-family: $san-serif;
+        font-family: $gmarket;
         font-weight: 400;
         letter-spacing: -0.009em;
       
@@ -231,7 +231,7 @@
         }
         
         h1 {
-            font-family: $source;
+            font-family: $gmarket;
             letter-spacing: 0.01em;
             color: $blue;
             padding-bottom: 7px;
@@ -255,7 +255,7 @@ sup {
 .post-type {
     color: $blue;
     font-size: 18px;
-    font-family: $source;
+    font-family: $gmarket;
     font-weight: 600;
 }
 
@@ -267,7 +267,7 @@ sup {
     padding: 0 0 12px 0;
     font-weight: 700;
     font-size: 32px;
-    font-family: $san-serif;
+    font-family: $gmarket;
     line-height: 1.2;
     letter-spacing: -0.009em;
     
@@ -291,7 +291,7 @@ sup {
 }
 
 .catalogue-tag {
-    font-family: $source;
+    font-family: $gmarket;
     display: inline-block;
     margin-bottom: 2px;
     text-transform: uppercase;
