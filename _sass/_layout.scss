@@ -19,6 +19,10 @@ footer>.footer_wrap,
     }
 }
 
+main {
+    flex: 1;
+}
+
 .nav {
     overflow: auto;
     padding: 24px 0;
@@ -78,7 +82,6 @@ a {
 //footer
 
 footer {
-    height: 120px;
     font-family: $source;
     padding: 36px 0 46px 0;
     background-color: $grey-3;
