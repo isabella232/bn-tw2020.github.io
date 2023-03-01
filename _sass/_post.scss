@@ -114,8 +114,8 @@
     
     h1 { 
         padding: 40px 0 16px 0;
-        font-weight: 700;
-        font-size: 28px;
+        font-weight: 600;
+        font-size: 32px;
         letter-spacing: -0.009em;
     }
     
@@ -125,8 +125,8 @@
     
     h2 {
         padding: 30px 0 12px 0;
-        font-weight: 700;
-        font-size: 25px;
+        font-weight: 600;
+        font-size: 24px;
     }
     
     h2:first-child {
@@ -135,7 +135,7 @@
     
     h3 {
         padding: 20px 0 10px 0;
-        font-size: 22px;
+        font-size: 20px;
         font-weight: 600;
     }
     
@@ -273,7 +273,7 @@ sup {
     letter-spacing: -0.009em;
     
     @media (max-width: $break-small) {
-        font-size: 28px;
+        font-size: 25px;
         line-height: 1.4em;
     }
 }
