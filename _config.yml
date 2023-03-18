@@ -12,15 +12,7 @@ sass:
   style:        :compressed
 
 # Build settings
-# repository:     "bn-tw2020/bn-tw2020.github.io"
 markdown:       kramdown
-
-# comment
-# comments:
-#   provider:     "utterances"
-#   utterances:
-#     theme:      "github-light"
-#     issue_term: "pathname"
 
 # About
 author:
